@@ -1,0 +1,10 @@
+{
+  "name": "@guang/eslint-config-basic",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Yang Guang",
+  "license": "MIT"
+}
