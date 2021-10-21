@@ -1,12 +1,16 @@
 {
-  "name": "@guang/eslint-config-basic",
+  "name": "@guang/eslint-config",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
   "author": "Yang Guang",
   "license": "MIT",
   "dependencies": {
+    "@guang/eslint-config-basic": "workspace:*",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
