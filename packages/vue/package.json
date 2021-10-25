@@ -1,0 +1,22 @@
+{
+  "name": "@guang/eslint-config-vue",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Yang Guang",
+  "license": "MIT",
+  "dependencies": {
+    "@guang/eslint-config-ts": "workspace:^0.1.0",
+    "eslint-plugin-vue": "^7.20.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.1"
+  }
+}
