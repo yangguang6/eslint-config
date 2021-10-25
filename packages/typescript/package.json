@@ -1,0 +1,25 @@
+{
+  "name": "@guang/eslint-config-ts",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Yang Guang",
+  "license": "MIT",
+  "dependencies": {
+    "@guang/eslint-config-basic": "workspace:^0.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "typescript": "^4.4.4"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.1",
+    "typescript": "^4.4.4"
+  }
+}
