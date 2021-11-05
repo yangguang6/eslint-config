@@ -48,7 +48,7 @@ importers:
     specifiers:
       '@typescript-eslint/eslint-plugin': ^5.1.0
       '@typescript-eslint/parser': ^5.1.0
-      '@yangguang6/eslint-config-basic': workspace:^0.1.0
+      '@yangguang6/eslint-config-basic': workspace:^0.1.1
       eslint: ^8.0.1
       typescript: ^4.4.4
     dependencies:
@@ -61,7 +61,7 @@ importers:
 
   packages/vue:
     specifiers:
-      '@yangguang6/eslint-config-ts': workspace:^0.1.0
+      '@yangguang6/eslint-config-ts': workspace:^0.1.1
       eslint: ^8.0.1
       eslint-plugin-vue: ^7.20.0
     dependencies:

@@ -1,6 +1,6 @@
 {
   "name": "@yangguang6/eslint-config-ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "keywords": [
@@ -13,7 +13,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@yangguang6/eslint-config-basic": "workspace:^0.1.0",
+    "@yangguang6/eslint-config-basic": "workspace:^0.1.1",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0"
   },
