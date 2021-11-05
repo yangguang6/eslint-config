@@ -9,6 +9,9 @@
   ],
   "author": "Yang Guang",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@yangguang6/eslint-config-ts": "workspace:^0.1.0",
     "eslint-plugin-vue": "^7.20.0"
