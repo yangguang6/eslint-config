@@ -1,0 +1,34 @@
+{
+  "name": "@yangguang6/eslint-config-vue2",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangguang6/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "vue"
+  ],
+  "author": "Yang Guang",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/yangguang6/eslint-config/issues"
+  },
+  "homepage": "https://github.com/yangguang6/eslint-config#readme",
+  "dependencies": {
+    "@yangguang6/eslint-config-basic": "workspace:^0.1.1",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.1"
+  }
+}
