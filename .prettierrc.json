@@ -1,0 +1,14 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "quoteProps": "consistent",
+  "overrides": [
+    {
+      "files": ["*.json"],
+      "options": {
+        "singleQuote": false,
+        "quoteProps": "preserve"
+      }
+    }
+  ]
+}

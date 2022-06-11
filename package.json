@@ -1,15 +1,19 @@
 {
   "name": "@yangguang6/eslint-config-monorepo",
   "license": "MIT",
-  "author": "Yang Guang",
+  "author": "Yang Guang <yorg@foxmail.com> (https://github.com/yangguang6)",
   "private": true,
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
-    "lint": "pnpm exec eslint --fix ."
+    "bump": "changeset version && pnpm i",
+    "changeset": "changeset",
+    "format": "prettier --write .",
+    "lint:fix": "pnpm exec eslint --fix .",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.17.0",
     "@yangguang6/eslint-config": "workspace:*",
-    "eslint": "^8.0.1"
+    "bumpp": "^7.1.1",
+    "eslint": "^8.17.0",
+    "prettier": "^2.6.2"
   }
 }
