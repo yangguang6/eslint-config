@@ -13,9 +13,14 @@ module.exports = {
     node: true,
   },
 
-  extends: ['eslint:recommended', 'plugin:promise/recommended', 'prettier'],
+  extends: [
+    'eslint:recommended',
+    'plugin:n/recommended',
+    'plugin:promise/recommended',
+    'prettier',
+  ],
 
-  plugins: ['import', 'node', 'promise'],
+  plugins: ['import'],
 
   globals: {
     document: 'readonly',
@@ -78,14 +83,5 @@ module.exports = {
     'import/no-duplicates': 'error',
     'import/no-named-default': 'error',
     'import/no-webpack-loader-syntax': 'error',
-
-    /* ------------------------------------- node ------------------------------------- */
-
-    'node/handle-callback-err': ['error', '^(err|error)$'],
-    'node/no-deprecated-api': 'error',
-    'node/no-exports-assign': 'error',
-    'node/no-new-require': 'error',
-    'node/no-path-concat': 'error',
-    'node/process-exit-as-throw': 'error',
   },
 }
